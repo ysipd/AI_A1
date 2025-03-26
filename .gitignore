@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.models/
+models/
+datasets/
+env/
+venv/
+.env/
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Cache files
+*.pyc
+*.pyo
+*.pyd
+*.log
+__pycache__/
+convo4.pkl
+
+# Environment variables and secrets
+.env
+.env.*
+*.secret
+
+# FastAPI related
+instance/
+*.db
+*.sqlite3
+
+# Dependencies
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode and PyCharm
+.vscode/
+.idea/
+*.iml
+
+# macOS system files
+.DS_Store
+
+# Logs and Debugging
+logs/
+*.log
+debug.log
+
+# Testing
+.coverage
+.tox/
+.nox/
+pytest_cache/
+htmlcov/
+
+# MySQL and SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# S3-related
+s3_data/
